@@ -23,18 +23,18 @@ features:
     details: Daftar akaun individu atau syarikat, log masuk, dan urus tetapan kata laluan dengan mudah.
   - icon: 💰
     title: Cukai Taksiran
-    details: Semak dan urus cukai taksiran anda dengan lebih efisien melalui sistem dalam talian.
+    details: Semak senarai cukai taksiran, buat pembayaran, dan dapatkan resit secara dalam talian.
+  - icon: 🅿️
+    title: Kompaun TLK
+    details: Urus kompaun tempat letak kereta - semak, bayar dan muat turun laporan dengan mudah.
+  - icon: 📝
+    title: Kompaun Pelbagai
+    details: Urus pelbagai jenis kompaun seperti kompaun peniaga dan kesalahan lain dengan efisien.
   - icon: 💳
     title: Pembayaran Dalam Talian
-    details: Lakukan pembayaran cukai dengan selamat menggunakan pelbagai kaedah pembayaran.
-  - icon: 🧾
-    title: Resit Digital
-    details: Akses dan muat turun resit cukai secara digital bila-bila masa.
+    details: Bayar cukai dan kompaun menggunakan FPX atau kad debit/kredit dengan selamat.
   - icon: 📊
-    title: Penyata Akaun
-    details: Jana dan lihat penyata akaun untuk rekod dan rujukan anda.
-  - icon: 📑
-    title: Laporan Cukai
-    details: Akses laporan terperinci berkaitan cukai taksiran anda.
+    title: Laporan & Penyata
+    details: Akses penyata akaun, laporan cukai, dan resit pembayaran bila-bila masa.
 
 ---

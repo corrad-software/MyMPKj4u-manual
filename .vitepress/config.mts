@@ -32,7 +32,7 @@ export default defineConfig({
             ]
           },
           {
-            text: "Akaun Pengguna",
+            text: "Akaun",
             items: [
               { text: "Pendaftaran Pengguna", link: "/pendaftaran-pengguna" },
               { text: "Pendaftaran Syarikat", link: "/pendaftaran-syarikat" },
@@ -41,18 +41,34 @@ export default defineConfig({
             ]
           },
           {
-            text: "Pengurusan Cukai",
+            text: "Cukai Taksiran",
             items: [
-              { text: "Cukai Taksiran", link: "/cukai-taksiran" },
-              { text: "Pembayaran Cukai", link: "/pembayaran-cukai" },
-              { text: "Resit Cukai", link: "/resit-cukai" },
+              { text: "Senarai Cukai", link: "/cukai-taksiran" },
+              { text: "Pembayaran", link: "/pembayaran-cukai" },
+              { text: "Resit", link: "/resit-cukai" },
+            ]
+          },
+          {
+            text: "Kompaun TLK",
+            items: [
+              { text: "Senarai Kompaun", link: "/kompaun-tempat-letak-kereta" },
+              { text: "Pembayaran", link: "/pembayaran-kompaun-tlk" },
+              { text: "Laporan", link: "/laporan-kompaun-tlk" },
+            ]
+          },
+          {
+            text: "Kompaun Pelbagai",
+            items: [
+              { text: "Senarai Kompaun", link: "/kompaun-pelbagai" },
+              { text: "Pembayaran", link: "/pembayaran-kompaun-pelbagai" },
+              { text: "Laporan", link: "/laporan-kompaun-pelbagai" },
             ]
           },
           {
             text: "Laporan",
             items: [
               { text: "Penyata Akaun", link: "/laporan-penyata-akaun" },
-              { text: "Cukai Taksiran", link: "/laporan-cukai-taksiran" },
+              { text: "Laporan Cukai", link: "/laporan-cukai-taksiran" },
             ]
           }
         ]
@@ -70,7 +86,7 @@ export default defineConfig({
         ]
       },
       {
-        text: "Akaun Pengguna",
+        text: "Akaun",
         collapsed: false,
         items: [
           { text: "Pendaftaran Pengguna", link: "/pendaftaran-pengguna" },
@@ -80,12 +96,30 @@ export default defineConfig({
         ],
       },
       {
-        text: "Pengurusan Cukai",
+        text: "Cukai Taksiran",
         collapsed: false,
         items: [
-          { text: "Cukai Taksiran", link: "/cukai-taksiran" },
-          { text: "Pembayaran Cukai", link: "/pembayaran-cukai" },
-          { text: "Resit Cukai", link: "/resit-cukai" },
+          { text: "Senarai Cukai", link: "/cukai-taksiran" },
+          { text: "Pembayaran", link: "/pembayaran-cukai" },
+          { text: "Resit", link: "/resit-cukai" },
+        ],
+      },
+      {
+        text: "Kompaun TLK",
+        collapsed: false,
+        items: [
+          { text: "Senarai Kompaun", link: "/kompaun-tempat-letak-kereta" },
+          { text: "Pembayaran", link: "/pembayaran-kompaun-tlk" },
+          { text: "Laporan", link: "/laporan-kompaun-tlk" },
+        ],
+      },
+      {
+        text: "Kompaun Pelbagai",
+        collapsed: false,
+        items: [
+          { text: "Senarai Kompaun", link: "/kompaun-pelbagai" },
+          { text: "Pembayaran", link: "/pembayaran-kompaun-pelbagai" },
+          { text: "Laporan", link: "/laporan-kompaun-pelbagai" },
         ],
       },
       {
@@ -93,7 +127,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: "Penyata Akaun", link: "/laporan-penyata-akaun" },
-          { text: "Cukai Taksiran", link: "/laporan-cukai-taksiran" },
+          { text: "Laporan Cukai", link: "/laporan-cukai-taksiran" },
         ],
       },
       {
