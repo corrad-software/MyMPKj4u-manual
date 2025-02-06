@@ -146,7 +146,7 @@ export default defineConfig({
 
     footer: {
       message: "Sistem MyMPKj4u",
-      copyright: "© 2024 Majlis Perbandaran Kajang. Hak Cipta Terpelihara.",
+      copyright: `© ${new Date().getFullYear()} Majlis Perbandaran Kajang. Hak Cipta Terpelihara.`,
     },
 
     // Additional UI text configurations
